@@ -2,30 +2,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:background="#F8F8F8">
+    android:background="#DBB8F9"
+    android:padding="16dp">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/appLogo"-->
-<!--        android:layout_width="120dp"-->
-<!--        android:layout_height="120dp"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--&lt;!&ndash;        android:src="@drawable/app_logo"&ndash;&gt;-->
-<!--        android:contentDescription="App Logo" />-->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="App Logo"
+        android:src="@drawable/logo" />
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:hint="Enter text 1"
+        android:layout_below="@id/appLogo"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/edit_text_bg"
+        android:hint="Enter text 1"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:textSize="16sp"
-        android:layout_marginBottom="16dp"
         tools:ignore="UnknownId" />
-    <!--        android:layout_below="@id/appLogo"-->
 
 
     <EditText
@@ -33,12 +33,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText1"
-        android:hint="Enter text 2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/edit_text_bg"
+        android:hint="Enter text 2"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:textSize="16sp"
-        android:layout_marginBottom="16dp" />
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/submitButton"
@@ -46,14 +47,16 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editText2"
         android:layout_centerHorizontal="true"
-        android:text="Compare"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rounded_button_bg"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
         android:paddingStart="24dp"
-        android:paddingEnd="24dp"
         android:paddingTop="8dp"
-        android:paddingBottom="8dp" />
+        android:paddingEnd="24dp"
+        android:paddingBottom="8dp"
+        android:text="Compare"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/resultTextView"
@@ -62,7 +65,7 @@
         android:layout_below="@id/submitButton"
         android:padding="16dp"
         android:text=""
-        android:textSize="18sp"
-        android:textColor="#333333" />
+        android:textColor="#333333"
+        android:textSize="18sp" />
 
 </RelativeLayout>
