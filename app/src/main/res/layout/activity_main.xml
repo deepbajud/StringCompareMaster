@@ -9,6 +9,7 @@
         android:id="@+id/appLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
+        android:layout_marginTop="55dp"
         android:layout_centerHorizontal="true"
         android:contentDescription="App Logo"
         android:src="@drawable/logo" />
@@ -18,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/appLogo"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="85dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Enter text 1"
