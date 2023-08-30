@@ -1,20 +1,41 @@
-<!-- activity_main.xml -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8F8F8">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+<!--        android:src="@drawable/app_logo"-->
+        android:contentDescription="App Logo" />
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter text 1" />
+        android:layout_below="@id/appLogo"
+        android:layout_marginTop="32dp"
+        android:hint="Enter text 1"
+        android:background="@drawable/edit_text_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText1"
-        android:hint="Enter text 2" />
+        android:hint="Enter text 2"
+        android:background="@drawable/edit_text_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/submitButton"
@@ -22,7 +43,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editText2"
         android:layout_centerHorizontal="true"
-        android:text="Submit" />
+        android:text="Compare"
+        android:background="@drawable/rounded_button_bg"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
 
     <TextView
         android:id="@+id/resultTextView"
@@ -31,5 +59,7 @@
         android:layout_below="@id/submitButton"
         android:padding="16dp"
         android:text=""
-        android:textAppearance="@android:style/TextAppearance.Large" />
+        android:textSize="18sp"
+        android:textColor="#333333" />
+
 </RelativeLayout>
