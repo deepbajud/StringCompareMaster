@@ -48,7 +48,8 @@ Whether you're a developer, a student, or someone interested in text comparisons
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------:|
 | <img src= "1.png" width="80%" height="70%"> | <img src= "2.png" width="80%" height="70%"> | <img src= "3.png" width="80%" height="70%"> |
 | <img src= "4.png" width="80%" height="70%"> | <img src= "5.png" width="80%" height="70%"> | <img src= "6.png" width="80%" height="70%"> |
-|  | ![bloggif_64f1c75753a9f](https://github.com/deepbajud/Joke_App/assets/118447327/33c282f8-0340-41a1-913a-086246167d7d) >  |
+|  | ![bloggif_64eef1e6f3623](https://github.com/deepbajud/StringCompareMaster/assets/118447327/b05a11b5-772d-410a-89fd-0671eb02afd4)
+  |
 
 
 <!--## App-Overview
@@ -73,4 +74,4 @@ Whether you're a developer, a student, or someone interested in text comparisons
   width="30%"
   src="6.png"/>
 
-  ![bloggif_64eef1e6f3623](https://github.com/deepbajud/StringCompareMaster/assets/118447327/b05a11b5-772d-410a-89fd-0671eb02afd4)
+  
