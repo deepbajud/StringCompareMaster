@@ -41,7 +41,7 @@ Educational: The app is also a great way to learn about string manipulation and 
 Whether you're a developer, a student, or someone interested in text comparisons, the "String Compare Master" offers a practical solution with an appealing interface. Download the app today and streamline your string comparison tasks with ease!
 
 
-## App-Overview
+<!--## App-Overview
 
  <img 
   width="30%"
